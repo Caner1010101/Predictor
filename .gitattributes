@@ -1,0 +1,10 @@
+# Satir sonlarini normalize et: repoda LF, Windows'ta calisirken CRLF.
+# Bu olmadan Windows'ta dosyalar sahte "degismis" gorunebiliyor.
+* text=auto
+
+# Notebook ve veri her zaman LF (diff'lerin tutarli kalmasi icin)
+*.ipynb text eol=lf
+*.csv   text eol=lf
+
+# Ikili dosyalar
+*.png binary

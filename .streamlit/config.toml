@@ -1,0 +1,14 @@
+[theme]
+base = "dark"
+primaryColor = "#E9E34F"
+backgroundColor = "#0D0D0D"
+secondaryBackgroundColor = "#161616"
+textColor = "#F5F5F0"
+
+[server]
+headless = true
+# Kaynak degistiginde "File change / Rerun" sormadan kendi yenilesin
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
